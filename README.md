@@ -21,14 +21,20 @@ git checkout -b dev
 
 echo 'Hello Dmitriy!';
 ```
-6. В ветке "master" отредактировать index.php ";"
+6. В ветке "master" отредактировать index.php
+```bash
+git checkout master
+```
 ```php
 <?php
 
 echo 'Hi world!';
 ```
-1.7. Объединить dev с master
-1.8. Пригласить меня, логин "DmitriyRudenskiy"
+7. Объединить dev с master
+```bash
+git merge dev
+```
+8. Пригласить меня, логин "DmitriyRudenskiy"
 
 II. Дополнительные
 ---
