@@ -12,6 +12,9 @@ I. Основные
 echo 'Hello world!';
 ```
 4. Создать ветку "dev"
+```bash
+git checkout -b dev
+```
 5. В ветке "dev" отредактировать index.php
 ```php
 <?php
